@@ -45,34 +45,6 @@ Al entrar:
 
 ---
 
-## 📋 Configuración de Google Sheets y Google Apps Script
-
-### Paso 1: Crear la Hoja de Google Sheets
-Crea un nuevo Spreadsheet en Google Drive y agrega cuatro (4) pestañas con los siguientes nombres exactos:
-
-#### A. Pestaña `Usuarios`
-Fila 1 (Encabezados):
-`student_id` | `nombre_completo` | `username` | `password` | `avatar_drive_id` | `avatar_drive_url` | `avatar_config_json` | `racha_dias` | `estado` | `fecha_registro`
-
-*Fila de ejemplo:*
-`STU-001` | `Mateo Rodríguez` | `mrodriguez` | `Teatro2026!` | (vacío) | (vacío) | `{}` | `7` | `ACTIVO` | `2026-10-16`
-
-#### B. Pestaña `Vocabulario`
-Fila 1 (Encabezados):
-`entry_id` | `timestamp` | `student_id` | `frase_ingles` | `conteo_palabras` | `traduccion_contexto` | `speech_accuracy_score` | `sesion_fecha`
-
-#### C. Pestaña `Feedback`
-Fila 1 (Encabezados):
-`feedback_id` | `timestamp` | `student_id` | `estrella_1` | `estrella_2` | `deseo` | `sesion_fecha`
-
-#### D. Pestaña `Configuracion`
-Fila 1 (Encabezados): `clave` | `valor`
-- Fila 2: `DRIVE_AVATAR_FOLDER_ID` | `PEGA_AQUÍ_EL_ID_DE_TU_CARPETA_DE_DRIVE`
-- Fila 3: `MAX_PHRASE_WORDS` | `4`
-- Fila 4: `MIN_SPEECH_SCORE` | `70`
-
----
-
 ### Paso 2: Crear la Carpeta para Avatares en Google Drive
 1. En Google Drive, crea una carpeta llamada **"Avatares - Inglés en Escena"**.
 2. Abre la carpeta y copia su ID de la URL del navegador:
