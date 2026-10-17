@@ -1,0 +1,21 @@
+{
+  "name": "Inglés en Escena",
+  "short_name": "En Escena",
+  "description": "Aplicación comunicativa de inglés y teatro interactivo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121115",
+  "theme_color": "#141317",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "entertainment"],
+  "lang": "es"
+}
